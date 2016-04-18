@@ -1,0 +1,119 @@
+﻿.button {
+    display:ruby;
+    
+    font-size: 24px;
+    
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 12px;
+}
+
+#homebanner 
+{
+    height: 70px;
+    background-repeat: no-repeat;
+    background-image: url('images/HomeLogo.PNG');
+    background-position:left;
+    width: 225px;
+    background-size:contain;  
+}
+
+#headerbanner{
+    height:70px;
+    border-bottom: 2px solid #FFD94C;
+    width: 100%;
+}
+
+#footer {
+    width:100%;
+    height:60px;
+    background-image: url('images/footer.PNG');
+    background-position: left bottom;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+#footerbanner{
+    height:60px;
+    background-color:#111111;
+    position:absolute;
+    bottom:0em;
+    left:0em;
+    width:100%;
+}
+.body-content{
+    margin-left: 16em;
+    margin-top: 10px;
+
+}
+
+.nav-left-custom{
+    position:absolute;
+    top: 5.7em;
+    left:0;
+    width: 13em;
+    background-color: lemonchiffon;
+}
+
+.nav-left-custom ul{
+    width: 11em;
+    list-style: none;
+    position:relative;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.nav-left-custom ul li{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-bottom: 2em;
+}
+
+.nav-left-custom ul li a{
+    text-decoration:none;
+    padding: 0;
+    color: black;
+}
+
+.nav-left-custom ul li a:hover{
+    text-decoration:none;
+    color: antiquewhite;
+}
+
+.nav-left-custom ul li a:active
+.nav-left-custom ul li a:focus{
+    text-decoration: none;
+}
+.nav-left-custom-home{
+    padding-top: 1em;
+    font-size:large;
+    margin-left: 0.5em;
+    padding-bottom:0;
+}
+.container-fluid{
+    width:100%;
+}
+.login-body{
+    position:page;
+
+}
+
+.table_self{
+    border:none;
+    margin-top:20px;
+}
+
+.table_self td{
+   padding-right:2.5em;
+}
+
+.table_self tr{
+    padding-bottom:2em;
+}
