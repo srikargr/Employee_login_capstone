@@ -99,7 +99,12 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+<<<<<<< HEAD
     <Content Include="WebForm2.aspx" />
+=======
+    <None Include="Properties\PublishProfiles\InternalEmployeeServices - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\InternalEmployeeServices - Web Deploy.pubxml" />
+>>>>>>> origin/master
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
