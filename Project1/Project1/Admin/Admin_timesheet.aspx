@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Admin.aspx.cs" Inherits="Project1.Admin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Admin_timesheet.aspx.cs" Inherits="Project1.Admin.Admin_timesheet" %>
 
 <!DOCTYPE html>
 
@@ -25,12 +25,22 @@
                 </li>
             </ul>
         </nav>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <form id="form1" runat="server">
         <div class="body-content">
             <div class="row">
                 <div class="col-xs-10 col-sm-12">
-                    aDMIN HOMEPAGE
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin/Admin.aspx.designer.cs">HyperLink</asp:HyperLink>
+                    <p>Following are the Time Sheets that have not yet been approved:</p>
+                    <br />
+                    <br />
+                    <asp:Table ID="table1" CssClass="table table-responsive" runat="server">
+                        <asp:TableHeaderRow>
+                            <asp:TableHeaderCell>TimeSheet ID</asp:TableHeaderCell>
+                            <asp:TableHeaderCell>Employee Name</asp:TableHeaderCell>
+                            <asp:TableHeaderCell>Start Date</asp:TableHeaderCell>
+                            <asp:TableHeaderCell>End Date</asp:TableHeaderCell>
+                        </asp:TableHeaderRow>
+                    </asp:Table>
                 </div>
                 </div>
             </div>
@@ -45,3 +55,4 @@
     </div>
 </body>
 </html>
+

@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\Admin_create.aspx" />
+    <Content Include="Admin\Admin_timesheet.aspx" />
     <Content Include="Bankinfo.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -76,13 +78,18 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bootstrapCyborg.min.css" />
+    <Content Include="css\styles.css" />
     <Content Include="Default.aspx" />
     <Content Include="images\date_picker1.gif" />
     <Content Include="images\footer.PNG" />
     <Content Include="images\HomeLogo.PNG" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\npm.js" />
+    <Content Include="fonts\js\bootstrap.js" />
+    <Content Include="fonts\js\bootstrap.min.js" />
+    <Content Include="fonts\js\jquery-1.8.2.min.js" />
+    <Content Include="fonts\js\modernizr-2.6.2.min.js" />
+    <Content Include="fonts\js\npm.js" />
+    <Content Include="fonts\js\script.js" />
     <Content Include="packages.config" />
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap-theme.min.css.map" />
@@ -92,12 +99,14 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="WebForm2.aspx" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -124,6 +133,20 @@
     </Compile>
     <Compile Include="Admin\Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_create.aspx.cs">
+      <DependentUpon>Admin_create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_create.aspx.designer.cs">
+      <DependentUpon>Admin_create.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_timesheet.aspx.cs">
+      <DependentUpon>Admin_timesheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_timesheet.aspx.designer.cs">
+      <DependentUpon>Admin_timesheet.aspx</DependentUpon>
     </Compile>
     <Compile Include="Bankinfo.aspx.cs">
       <DependentUpon>Bankinfo.aspx</DependentUpon>
@@ -153,6 +176,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
     <Compile Include="taxInfo.aspx.cs">
       <DependentUpon>taxInfo.aspx</DependentUpon>
@@ -196,10 +226,15 @@
     <Compile Include="UserProfile\Userprofile_register.aspx.designer.cs">
       <DependentUpon>Userprofile_register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="fonts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

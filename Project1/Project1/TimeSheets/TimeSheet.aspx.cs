@@ -59,7 +59,6 @@ namespace Project1
             while (counter < count)
             {
                 TableCell tcell = new TableCell();
-                tcell.Width = 20;
                 TextBox tb = new TextBox();
                 // Set a unique ID for each TextBox added
                 tb.ID = "TextBoxRow_" + counter;
